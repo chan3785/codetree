@@ -12,7 +12,6 @@ def gcd(n,m):
 
 def lcm(n,m):
     return (n * m) // gcd(n,m)
-
     
-print(lcm(12,18))
+print(lcm(n,m))
         
