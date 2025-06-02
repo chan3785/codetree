@@ -6,7 +6,7 @@ def is_날짜있음(m, d):
         return "No"
     if m > 7:
         if m % 2 == 0:
-            if d <= 30:
+            if d <= 31:
                 return "Yes"
         else:
             if d <= 30:
